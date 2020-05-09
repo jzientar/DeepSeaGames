@@ -1,4 +1,4 @@
-body{
+body {
     font-family: 'Titillium Web', sans-serif;
 }
 
@@ -6,12 +6,128 @@ body{
 
     background-color: #ffffff;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .05);
-    min-height: 100px;
+    height: fit-content;
 }
 
-.nav-link{ color: black; }
+h1 { font-size: 66px; font-weight: 600; line-height: 80px; }
+h2 { font-size: 48px; margin-bottom: 30px; }
 
-.nav-link:hover{
-    color: black; 
-    /* font-weight: bolder; This is still being considered                        */
+p {
+    font-size: 18px;
+    color: #999999;
+    line-height: 1.8;
+    margin-bottom: 0;
 }
+
+a:hover {
+    text-decoration: none;
+}
+
+section {
+    padding: 30px;
+}
+
+.nav-link { color: white; }
+
+.nav-link:hover {
+    color: white; 
+    /* font-weight: bolder; This is still being considered */
+}
+
+.dropdown-menu > a:hover { 
+    background-color: black;
+    color: white; 
+}
+
+.logo-brand {
+    max-width: 290px;
+    min-width: 260px;
+}
+
+.topmargin-xs { margin-top: 15px; }
+.topmargin-sm { margin-top: 30px; }
+.topmargin-lg { margin-top: 60px; }
+
+.btn {
+    font-size: 14px;
+    padding: 15px 26px;
+    min-width: 100px;
+    border-radius: 2px;
+    display: inline-block;
+}
+
+.btn-light {
+    background-color: white;
+    color: #1a1a1a;
+    border: 2px solid white;
+}
+
+.navbar-toggler { 
+    font-size: 23px; 
+    background-color: white;
+}
+
+.navbar-toggler:focus { outline: none; }
+
+#frontpage{
+    background-image: url('images/frontpageGames.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 90px;
+    min-height: 600;
+    
+    color: #EBB80F;
+}
+
+.content-center {
+    max-width: 800px;
+    margin: 0 auto 60px auto;
+    text-align: center;
+}
+
+.gallery-container {
+    position: relative;
+    overflow: hidden;
+    margin: 10px 0;
+    border-radius: 2px;
+}
+
+.gallery-details {
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+    z-index: 9000;
+}
+
+.gallery-container img {
+    -moz-transition: all 0,8s;
+    -webkit-transition: all 0.8;
+    transition: all 0.8s;
+}
+
+.gallery-container:hover img {
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.gallery-details h2{
+    margin-bottom: 0px;
+}
+
+.gallery-details a h2, .gallery-details a p {
+    color: white;
+}
+
+
+@media (min-width: 576px) { 
+    h1 { font-size: 40px; line-height: normal; }
+ }
+
+@media (min-width: 768px) { ... }
+
+
+@media (min-width: 992px) { ... }
+
+
+@media (min-width: 1200px) { ... }
