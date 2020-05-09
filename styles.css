@@ -51,9 +51,10 @@ section {
 .btn {
     font-size: 14px;
     padding: 15px 26px;
-    min-width: 100px;
+    min-width: 230px;
     border-radius: 2px;
     display: inline-block;
+
 }
 
 .btn-light {
@@ -67,16 +68,8 @@ section {
     background-color: white;
 }
 
-.navbar-toggler:focus { outline: none; }
-
-#frontpage{
-    background-image: url('images/frontpageGames.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding-top: 90px;
-    min-height: 600;
-    
-    color: #EBB80F;
+.navbar-toggler:focus { 
+    outline: none; 
 }
 
 .content-center {
@@ -121,13 +114,46 @@ section {
 
 
 @media (min-width: 576px) { 
-    h1 { font-size: 40px; line-height: normal; }
+    h1 { font-size: 40px; line-height: normal;
  }
 
-@media (min-width: 768px) { ... }
+@media (min-width: 768px) {  }
 
 
-@media (min-width: 992px) { ... }
+@media (min-width: 992px) {  }
 
 
-@media (min-width: 1200px) { ... }
+@media (min-width: 1200px) {  }
+
+.block{
+    background-image: url('images/frontpageGames.jpg');
+    background-size: cover;
+    min-height: 595px;
+    padding-top: 90px;
+    background-repeat: no-repeat;
+    color: white;
+    position: relative;
+
+  }
+  
+  .block:before {
+    content: "";
+    display: block;
+    position: absolute;top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: none;
+    transition: all .3s linear;
+  }
+  
+  .block:hover:before {
+    background: rgba(0, 0, 0, 0.9);
+    
+  }
+
+  .block h2,
+  .block p,
+  .block img {
+    position: relative;
+  }
