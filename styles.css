@@ -23,6 +23,8 @@ a:hover {
     text-decoration: none;
 }
 
+.bg-light-grey { background-color: #f2f2f2; }
+
 section {
     padding: 30px;
 }
@@ -180,5 +182,25 @@ section {
       padding: 10px;
   }
  
-  
+.platform-container{
+    position: relative;
+    margin: 10px 0;
 
+}
+
+.platform-details{
+    position: absolute;
+    color: black;
+    bottom: 10px;
+    left: 20px;
+}
+
+.platform-details h5 { 
+
+    margin-bottom: 0px;
+}
+
+.platform-details span {
+    font-size: 14px;
+   
+}

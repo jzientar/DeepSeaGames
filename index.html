@@ -21,7 +21,7 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg" style="background-color: #010101;">
+  <nav class="navbar navbar-expand-lg fixed-top" style="background-color: #010101;">
     <div class="container">
       <a class="navbar-brand" href="#"><img src="images/logo.sm.fw.png" class="logo-brand" alt="logo"></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -61,16 +61,29 @@
     </div>
   </nav>
 
-  <section class="block">
-    <div class="container">
+  <section>
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" style="padding-top: 130px;">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="images/frontpageGames.jpg" alt="First slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="images/frontpageGames2.jpg" alt="Second slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="images/frontpageGames3.jpg" alt="Third slide">
+        </div>
+      </div>
+    </div>
+
+
+    <!-- <div class="container">
       <div class="content-center topmargin-lg">
         <h2>Welcome to our store!!!</h2>
         <p>We hope you can find the game you're looking for. You can place your reservations for <b>THAT</b> game you're
           waiting for. Check which games are coming soon.</p>
         <br>
-        <a href="#"><img src="images/FloatingLogo.fw.png"></a>
-
-      </div>
+      </div> -->
 
   </section>
 
@@ -131,15 +144,65 @@
                 <h2>Bloodborne</h2>
               </a>
               <a href="#">
-                <p>action role-playing game developed by FromSoftware</p>
+                <p>Action role-playing game developed by FromSoftware</p>
               </a>
             </div>
             <img src="images/gallery-04.jpg" class="img-fluid" alt="gallery-02">
           </div>
         </div>
-
       </div>
+      <div class="text-center topmargin-sm">
+        <p>And many more deals...</p>
+        <a href="hotdeals.html" class="text-dark">Check out our deals section for more information</a>
+      </div>
+
     </div>
+
+  </section>
+
+  <section id="aboutus" class="bg-light-grey">
+
+    <div class="content-center topmargin-lg">
+      <h2>We have games for different platforms and hand held devices</h2>
+      <p>If there's a game you're looking for and we don't have it, please let us know so we can get it for you</p>
+    </div>
+
+    <div class="row">
+      <div class="col-md-4">
+        <div class="platform-container">
+          <div class="platform-details">
+            <h5>Xbox One</h5>
+            <span>Xbox One games </span>
+
+            </div>
+          <img src="images/platform-01.jpg" class="img-fluid" alt="platform-1">
+          </div>
+        </div>
+      
+        <div class="col-md-4">
+          <div class="platform-container">
+            <div class="platform-details">
+              <h5>Playstation</h5>
+              <span>Playstation games </span>
+  
+              </div>
+            <img src="images/platform-02.jpg" class="img-fluid" alt="platform-2">
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="platform-container">
+              <div class="platform-details">
+                <h5>Nintendo Switch</h5>
+                <span>Nintendo games </span>
+    
+                </div>
+              <img src="images/platform-03.jpg" class="img-fluid" alt="platform-3">
+              </div>
+            </div>
+    </div>
+
+
 
   </section>
 
