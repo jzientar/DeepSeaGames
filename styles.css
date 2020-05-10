@@ -24,6 +24,7 @@ a:hover {
 }
 
 .bg-light-grey { background-color: #f2f2f2; }
+.bg-dark { background-color: black !important ; min-height: 300px;}
 
 section {
     padding: 30px;
@@ -42,8 +43,8 @@ section {
 }
 
 .logo-brand {
-    max-width: 290px;
-    min-width: 260px;
+    max-width: 250px;
+    min-width: 220px;
 }
 
 .topmargin-xs { margin-top: 15px; }
@@ -80,6 +81,42 @@ section {
     text-align: center;
 }
 
+.carousel {
+    min-height: 240px;
+    padding: 40px;
+    text-align: center;
+}
+
+.carousel p {
+    font-size: 22px;
+    font-weight: 400;
+    color: #1a1a1a; 
+}
+
+.rating {
+    color: #fFb944 ;
+    font-size: 26px;
+}
+
+.rating p { color: grey;}
+
+#footer {
+    padding: 80px 0;
+    text-align: center;
+    color: white;
+}
+
+#footer a {
+    color: white;
+}
+
+#footer a:hover {
+    color: white;
+}
+
+#footer .list-inline .list-inline-item {
+     padding: 10px 15px;
+}
 .gallery-container {
     position: relative;
     overflow: hidden;
@@ -91,7 +128,7 @@ section {
     position: absolute;
     bottom: 25px;
     left: 25px;
-    z-index: 9000;
+    z-index: 2;
 }
 
 .gallery-container img {
@@ -107,11 +144,16 @@ section {
 }
 
 .gallery-details h2{
+    color: white;
+    text-shadow: 2px 2px black;
+    font-size: 26px;
     margin-bottom: 0px;
 }
 
-.gallery-details a h2, .gallery-details a p {
+.gallery-details a, .gallery-details a p {
     color: white;
+    text-shadow: 2px 2px black;
+    font-size: 18px;
 }
 
 
