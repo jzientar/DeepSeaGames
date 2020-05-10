@@ -157,3 +157,28 @@ section {
   .block img {
     position: relative;
   }
+  .bodyHot{
+    background-image: url(images/bodyHot.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  
+  .textgallery{
+    font-size: 20px ;
+    color: white;
+    text-align: center;
+  }
+
+  .imggallery
+  {
+       width: 400px;
+        height: 500px;
+      border-width: 4px;
+      border-radius: 25px;
+      padding: 10px;
+  }
+ 
+  
+
