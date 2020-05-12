@@ -210,6 +210,9 @@ section {
     h1 { font-size: 40px; 
         line-height: normal;
     }
+    .offers { 
+        min-width: unset; 
+        padding: 40px;}
  }
 
 @media (min-width: 768px) {  }
