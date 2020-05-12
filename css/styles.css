@@ -34,7 +34,6 @@ section {
 
 .nav-link:hover {
     color: white; 
-    /* font-weight: bolder; This is still being considered */
 }
 
 .dropdown-menu > a:hover { 
@@ -294,18 +293,4 @@ section {
 
 .platform-details span {
     font-size: 14px;   
-}
-
-.map-responsive{
-    overflow:hidden;
-    padding-bottom:50%;
-    position:relative;
-    height:0;
-}
-.map-responsive iframe{
-    left:0;
-    top:0;
-    height:100%;
-    width:100%;
-    position:absolute;
 }
