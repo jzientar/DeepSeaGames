@@ -2,122 +2,262 @@
 <html lang="en">
 
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-    <link href="styles.css" rel="stylesheet">
+  <link href="css/styles.css" rel="stylesheet">
 
-    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600&display=swap" rel="stylesheet">
 
-    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+  <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
 
 
-    <title>Hot Deals</title>
+  <title>Hot Deals</title>
 </head>
 
-<body class="bodyHot">
+<body>
 
-    <nav class="navbar navbar-expand-lg fixed-top" style="background-color: #010101;">
-        <div class="container">
-          <a class="navbar-brand" href="index.html"><img src="images/logo.sm.fw.png" class="logo-brand" alt="logo"></a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <ion-icon name="menu-outline"></ion-icon>
-          </button>
-    
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="index.html" id="home">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="hotdeals.html" id="hotdeals">Hot Deals</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="comingsoon.html" id="comingsoon">Coming soon</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                  aria-haspopup="true" aria-expanded="false">
-                  Platforms
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="#" id="pc">PC</a>
-                  <a class="dropdown-item" href="#" id="xbox">Xbox</a>
-                  <a class="dropdown-item" href="#" id="playstation">Playstation</a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#" id="other">Other</a>
-                </div>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="about.html">About us</a>
-              </li>
-            </ul>
+  <nav class="navbar navbar-expand-lg fixed-top" style="background-color: #010101;">
+    <div class="container">
+      <a class="navbar-brand" href="index.html"><img src="images/logo.sm.fw.png" class="logo-brand" alt="logo"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <ion-icon name="menu-outline"></ion-icon>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html" id="home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="hotdeals.html" id="hotdeals">Hot Deals</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="comingsoon.html" id="comingsoon">Coming soon</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Platforms
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#" id="pc">PC</a>
+              <a class="dropdown-item" href="#" id="xbox">Xbox</a>
+              <a class="dropdown-item" href="#" id="playstation">Playstation</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#" id="other">Other</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section id="gallery">
+    <div class="container-fluid">
+      <div class="content-center" style="padding-top: 130px;">
+        <h2>These are our games on sale.</h2>
+        <p>You can also trade your console disc games for new games!</p>
+
+      </div>
+    </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-4">
+        <div class="gallery-container">
+          <div class="gallery-details">
+            <a href="#">
+              <h2>Battlegrounds</h2>
+            </a>
+            <a href="#">
+              <p style="text-decoration: line-through; font-size: 12px; ">$29.99 USD</p>
+              <p style="font-size: 16px; color: rgb(247, 126, 12);">$23.99 USD</p>
+            </a>
+          </div>
+          <img src="images/game1.jpg" class="img-fluid" alt="gallery-01">
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="gallery-container">
+          <div class="gallery-details">
+            <a href="#">
+              <h2>FIFA 2020</h2>
+            </a>
+            <a href="#">
+              <p style="text-decoration: line-through; font-size: 12px; ">$59.99 USD</p>
+              <p style="font-size: 16px; color: rgb(247, 126, 12);">$29.99 USD</p>
+            </a>
+          </div>
+          <img src="images/game2.jpg" class="img-fluid" alt="gallery-02">
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="gallery-container">
+          <div class="gallery-details">
+            <a href="#">
+              <h2>Dragonball FighterZ</h2>
+            </a>
+            <a href="#">
+              <p style="text-decoration: line-through; font-size: 12px; ">$49.99 USD</p>
+              <p style="font-size: 16px; color: rgb(247, 126, 12);">$24.99 USD</p>
+            </a>
+          </div>
+          <img src="images/game3.jpg" class="img-fluid" alt="gallery-02">
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="gallery-container">
+          <div class="gallery-details">
+            <a href="#">
+              <h2>Call of Duty Black Ops III</h2>
+            </a>
+            <a href="#">
+              <p style="text-decoration: line-through; font-size: 12px; ">$59.99 USD</p>
+              <p style="font-size: 16px; color: rgb(247, 126, 12);">$14.99 USD</p>
+            </a>
+          </div>
+          <img src="images/gallery-05.jpg" class="img-fluid" alt="gallery-02">
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="gallery-container">
+          <div class="gallery-details">
+            <a href="#">
+              <h2>Football PES 2020</h2>
+            </a>
+            <a href="#">
+              <p style="text-decoration: line-through; font-size: 12px; ">$49.99 USD</p>
+              <p style="font-size: 16px; color: rgb(247, 126, 12);">$24.99 USD</p>
+            </a>
+          </div>
+          <img src="images/game5.jpg" class="img-fluid" alt="gallery-02">
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="gallery-container">
+          <div class="gallery-details">
+            <a href="#">
+              <h2>Tekken 7</h2>
+            </a>
+            <a href="#">
+              <p style="text-decoration: line-through; font-size: 12px; ">$59.99 USD</p>
+              <p style="font-size: 16px; color: rgb(247, 126, 12);">$35.99 USD</p>
+            </a>
+          </div>
+          <img src="images/game6.jpg" class="img-fluid" alt="gallery-02">
+        </div>
+      </div>
+
+  </section>
+
+  <section id="hotdeals">
+    <div class="container">
+      <div class="content-center">
+        <h2>Xbox One X and Playstation Offers!!!</h2>
+        <p>We also have offers of our consoles so make sure to check often!</p>
+        <p>This offer will end on <b>May 18th, 2020 at 00:00:00 EST</b></p>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6">
+          <div class="deals-container">
+            <div class="offers offer-light">
+              <h4>Xbox One X</h4>
+              <h2>$289.99</h2>
+              <h4>Plus one of the following titles</h4>
+              <ul class="topmargin-x">
+                <li>Star Wars Jedi: Fallen Order</li>
+                <li>Forza Horizon 4 LEGO</li>
+                <li>NBA 2k20</li>
+                <li>Gears 5</li>
+              </ul>
+              <a href="https://wa.me/59176911382" target="_blank" class="btn btn-dark full-width topmargin-sm">Contact
+                us</a>
+            </div>
           </div>
         </div>
-      </nav>
-    
-    <table class= "textgallery" align="center">
-        <tr>
-            <td><img class="imggallery" src="images/game1.jfif">
-                <h4>Playerunknown's Battlegrounds</p>
-                <h4 style="text-decoration: line-through">29.99 USD</h4>
-                <h4>23.99 USD <br>-%20</h4>
-            </td>
-            <td><img class="imggallery" src="images/game2.jpg">
-                <h4>Black Ops 3</h4>
-                <h4 style="text-decoration: line-through">59.99 USD</h4>
-                <h4>29.99 USD <br>-%50</h4>
-            </td>  
-            <td><img class="imggallery" src="images/game3.jpg">
-                <h4>Dragon Ball Fighterz</p>
-                <h4 style="text-decoration: line-through">59.99 USD</h4>
-                <h4>14.99 USD <br>-%75</h4>
-            </td>   
-            
-            
-              
-                
-        </tr>  
-        <tr>
-            <td><img class="imggallery" src="images/game4.jfif">
-                <h4>Fifa 2020</h4>
-                <h4 style="text-decoration: line-through">49.99 USD</h4>
-                <h4>24.99 USD <br>-%50</h4>
-            </td>
-            
-            <td><img class="imggallery" src="images/game5.jpg">
-                <h4>Pro Evolution 220</h4>
-                <h4 style="text-decoration: line-through">59.99 USD</h4>
-                <h4>35.99 USD <br>-%40</h4>
-            </td>     
-            <td><img class="imggallery" src="images/game6.jpg">
-                <h4>Tekken 7</h4>
-                <h4 style="text-decoration: line-through">29.99 USD</h4>
-                <h4>5.99 USD <br>-%80</h4>
-            </td>     
-                
-        </tr>  
+
+        <div class="col-md-6">
+          <div class="deals-container">
+            <div class="offers offer-dark">
+              <h4>Playstation 4</h4>
+              <h2>$289.99</h2>
+              <h4>Plus one of the following titles</h4>
+              <ul class="topmargin-x">
+                <li>Death Standing</li>
+                <li>Modern Warfare® PS4™ Pro</li>
+                <li>Red Dead Redemption 2 </li>
+                <li>Star Wars Battlefront II</li>
+              </ul>
+              <a href="https://wa.me/59176911382" target="_blank"
+                class="btn btn-light full-width topmargin-sm">Contact us</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="footer" class="bg-dark">
+    <div class="container">
+      <img src="images/logo.sm.fw.png " class="logo-brand" alt="logo">
+      <ul class="list-inline">
+        <li class="list-inline-item footer-menu"><a href="index.html">Home</a></li>
+        <li class="list-inline-item footer-menu"><a href="index.html">Hot deals</a></li>
+        <li class="list-inline-item footer-menu"><a href="index.html">Coming soon</a></li>
+        <li class="list-inline-item footer-menu"><a href="index.html">About us</a></li>
+      </ul>
+
+      <ul class="list-inline">
+        <li class="list-inline-item"><a href="#">
+            <ion-icon name="logo-facebook"></ion-icon>
+          </a></li>
+        <li class="list-inline-item"><a href="#">
+            <ion-icon name="logo-youtube"></ion-icon>
+          </a></li>
+        <li class="list-inline-item"><a href="#">
+            <ion-icon name="logo-instagram"></ion-icon>
+            </ion-icon>
+          </a></li>
+        <li class="list-inline-item"><a href="#">
+            <ion-icon name="logo-twitter"></ion-icon>
+            </ion-icon>
+          </a></li>
+      </ul>
+
+      <small>© 2020 Deep-sea Games. All rights reserved</small>
+    </div>
+  </section>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
 
 
-    </table>
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-        crossorigin="anonymous"></script>
 </body>
 
 </html>

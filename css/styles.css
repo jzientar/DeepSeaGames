@@ -24,7 +24,7 @@ a:hover {
 }
 
 .bg-light-grey { background-color: #f2f2f2; }
-.bg-dark { background-color: black !important ; min-height: 300px;}
+.bg-dark { background-color: #010101 !important ; min-height: 300px;}
 
 section {
     padding: 30px;
@@ -47,6 +47,32 @@ section {
     min-width: 220px;
 }
 
+.offers {
+    padding: 50px 80px;
+    border-radius: 2px;
+    min-width: 450px;
+}
+
+.offers h2 {
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.offer-light {
+    background-color: white;
+    border: 2px solid black;
+}
+
+.offer-dark {
+    background-color: black;
+    border: 2px solid black;
+    color: white;
+}
+
+.deals-container {
+    margin: 15px 0;
+}
+
 .topmargin-xs { margin-top: 15px; }
 .topmargin-sm { margin-top: 30px; }
 .topmargin-lg { margin-top: 60px; }
@@ -57,6 +83,13 @@ section {
     min-width: 230px;
     border-radius: 2px;
     display: inline-block;
+}
+
+.btn-transparent {
+
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
 
 }
 
@@ -65,6 +98,18 @@ section {
     color: #1a1a1a;
     border: 2px solid white;
 }
+
+.btn-dark {
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+}
+
+.btn-dark a:hover{
+    color: white !important;
+}
+
+.full-width { width: 100%;}
 
 .navbar-toggler { 
     font-size: 23px; 
@@ -125,9 +170,12 @@ section {
 }
 
 .gallery-details {
+    background-color: #1a1a1a;
+    border-radius: 5px;
     position: absolute;
     bottom: 25px;
     left: 25px;
+    right: 20%;
     z-index: 2;
 }
 
@@ -141,9 +189,11 @@ section {
     -moz-transform: scale(1.2);
     -webkit-transform: scale(1.2);
     transform: scale(1.2);
+    opacity: 0.8;
 }
 
-.gallery-details h2{
+.gallery-details h2 {
+
     color: white;
     text-shadow: 2px 2px black;
     font-size: 26px;
@@ -158,7 +208,9 @@ section {
 
 
 @media (min-width: 576px) { 
-    h1 { font-size: 40px; line-height: normal;
+    h1 { font-size: 40px; 
+        line-height: normal;
+    }
  }
 
 @media (min-width: 768px) {  }
@@ -172,15 +224,14 @@ section {
 .block{
     background-image: url('images/frontpageGames.jpg');
     background-size: cover;
-    min-height: 595px;
-    padding-top: 90px;
+
     background-repeat: no-repeat;
     color: white;
     position: relative;
 
   }
   
-  .block:before {
+.block:before {
     content: "";
     display: block;
     position: absolute;top: 0;
@@ -188,43 +239,42 @@ section {
     left: 0;
     right: 0;
     background: none;
-    transition: all .3s linear;
-  }
+    transition: all .7s linear;
+}
   
-  .block:hover:before {
+.block:hover:before {
     background: rgba(0, 0, 0, 0.9);
     
-  }
+}
 
-  .block h2,
-  .block p,
-  .block img {
+.block h2,
+.block p,
+.block img {
     position: relative;
-  }
-  .bodyHot{
+}
+.bodyHot {
     background-image: url(images/bodyHot.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-  }
+}
   
-  .textgallery{
+.textgallery {
     font-size: 20px ;
     color: white;
     text-align: center;
-  }
+}
 
-  .imggallery
-  {
+.imggallery {
        width: 400px;
         height: 500px;
       border-width: 4px;
       border-radius: 25px;
       padding: 10px;
-  }
+}
  
-.platform-container{
+.platform-container {
     position: relative;
     margin: 10px 0;
 
@@ -243,6 +293,19 @@ section {
 }
 
 .platform-details span {
-    font-size: 14px;
-   
+    font-size: 14px;   
+}
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:50%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
 }
